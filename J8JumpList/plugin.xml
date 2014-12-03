@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="org.eclipse.ui.views">
+      <view
+            name="J8JumpList"
+            icon="icons/full/cview16/editor_list.gif"
+            class="cai.peter.eclipse.JumpList.views.JumpListView"
+            id="cai.peter.eclipse.view.J8JumpList">
+      </view>
+      <category
+            id="J8JumpList.category"
+            name="Peter J8Toolset">
+      </category>
+   </extension>
+   
+    <extension
+          point="org.eclipse.ui.commands">
+       <command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd1"
+             name="Add J8marker 1">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd2"
+             name="Add J8marker 2">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd3"
+             name="Add J8marker 3">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd4"
+             name="Add J8marker 4">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd5"
+             name="Add J8marker 5">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd6"
+             name="Add J8marker 6">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd7"
+             name="Add J8marker 7">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd8"
+             name="Add J8marker 8">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd9"
+             name="Add J8marker 9">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8SetMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandAdd0"
+             name="Add J8marker 0">
+       </command>
+       <command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto1"
+             name="Goto J8marker 1">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto3"
+             name="Goto J8marker 3">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto2"
+             name="Goto J8marker 2">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto0"
+             name="Goto J8marker 0">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto4"
+             name="Goto J8marker 4">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto5"
+             name="Goto J8marker 5">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto6"
+             name="Goto J8marker 6">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto7"
+             name="Goto J8marker 7">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto8"
+             name="Goto J8marker 8">
+       </command><command
+             categoryId="org.eclipse.ui.category.textEditor"
+             defaultHandler="cai.peter.eclipse.j8marker.J8GotoMarkerHandler"
+             id="cai.peter.eclipse.j8marker.commandGoto9"
+             name="Goto J8marker 9">
+       </command>
+    </extension>
+    <extension
+          point="org.eclipse.ui.bindings">
+       <key
+             commandId="cai.peter.eclipse.j8marker.commandAdd1"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+1">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd2"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+2">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd3"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+3">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd4"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+4">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd5"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+5">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd6"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+6">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd7"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+7">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd8"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+8">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd9"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+9">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandAdd0"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="CTRL+SHIFT+0">
+       </key>
+       <key
+             commandId="cai.peter.eclipse.j8marker.commandGoto1"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+1">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto2"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+2">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto3"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+3">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto4"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+4">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto5"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+5">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto6"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+6">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto7"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+7">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto8"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+8">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto9"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+9">
+       </key><key
+             commandId="cai.peter.eclipse.j8marker.commandGoto0"
+             contextId="org.eclipse.ui.contexts.window"
+             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+             sequence="Alt+0">
+       </key>
+    </extension>
+    <extension
+          point="org.eclipse.ui.ide.markerImageProviders">
+       <imageprovider
+             class="cai.peter.eclipse.j8marker.J8markerImageProvider"
+             id="cai.peter.eclipse.j8marker.imageprovider"
+             markertype="cai.peter.eclipse.j8marker">
+       </imageprovider>
+    </extension>
+</plugin>
